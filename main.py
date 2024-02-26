@@ -1,7 +1,10 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.add_argument('--user-data-dir=C:/Users/YOUR_USER/AppData/Local/Google/Chrome/User Data')
+# You need to change YOUR_USER to the user you are using.
+driver = webdriver.Chrome(options=options)
 driver.get('https://neal.fun/infinite-craft/')
 driver.set_window_size(800, 1060)
 time.sleep(2)
