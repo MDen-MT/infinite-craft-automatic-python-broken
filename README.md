@@ -1,4 +1,4 @@
-# DOES NOT WORK ANY MORE 
+# DOES NOT WORK ANYMORE 
 
 # infinite-craft-automatic-python
  automation for infinite craft in python
